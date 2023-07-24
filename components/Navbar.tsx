@@ -39,15 +39,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full fixed z-40">
-      <div className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-zinc-900 bg-opacity-90' : ''}`}>
+      <div className={`text-sm text-white mb-8 opacity-70 uppercase px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-black w-full h-full lg:opacity-50' : ''}`}>
         <img src="/images/logo.png" className="h-4 lg:h-7" alt="Logo" />
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem label="Home" active />
           <NavbarItem label="Series" />
-          <NavbarItem label="Films" />
-          <NavbarItem label="New & Popular" />
-          <NavbarItem label="My List" />
-          <NavbarItem label="Browse by Languages" />
+          <NavbarItem label="Films" />       
+          <NavbarItem label="wishlist" />
         </div>
         <div onClick={toggleMobileMenu} className="lg:hidden flex flex-row items-center gap-2 ml-8 cursor-pointer relative">
           <p className="text-white text-sm">Browse</p>
@@ -55,10 +53,10 @@ const Navbar = () => {
           <MobileMenu visible={showMobileMenu} />
         </div>
         <div className="flex flex-row ml-auto gap-7 items-center">
-          <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
+          <div className="text-white text-sm hover:text-gray text-sm cursor-pointer transition">
             <MagnifyingGlassIcon className="w-6" />
           </div>
-          <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
+          <div className="text-white text-sm hover:text-gray cursor-pointer transition">
             <BellIcon className="w-6" />
           </div>
           <div onClick={toggleAccountMenu} className="flex flex-row items-center gap-2 cursor-pointer relative">
