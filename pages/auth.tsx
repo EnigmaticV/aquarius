@@ -81,7 +81,7 @@ const Auth = () => {
             </h2>
             <div className="flex flex-col gap-4 text-sm">
               {variant === 'register' && (
-                <div style={{ marginBottom: '15px' }}> <!-- Wrap the Input components with a div and apply style here -->
+                
     <Input
       id="email"
       type="email"
@@ -104,7 +104,7 @@ const Auth = () => {
                 value={password}
                 onChange={(e: any) => setPassword(e.target.value)} 
               />
-            </div>
+          
                   </div>
 
             <button onClick={variant === 'login' ? login : register} className="text-sm bg-zinc-800 py-3 text-white rounded-md w-full mt-10 hover:bg-zinc-900 transition uppercase">
