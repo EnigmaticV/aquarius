@@ -79,7 +79,7 @@ const Auth = () => {
             
               {variant === 'login' ? 'Sign in' : 'Register'}
             </h2>
-            <div className="flex flex-col gap-4 text-sm mb-15 sm:mb-0">
+            <div className="flex flex-col gap-4 text-sm">
               {variant === 'register' && (
                 <Input
                   id="name"
@@ -102,7 +102,7 @@ const Auth = () => {
                 label="Password" 
                 value={password}
                 onChange={(e: any) => setPassword(e.target.value)} 
-              />
+              class="space-y-4"/>
             </div>
 
             <button onClick={variant === 'login' ? login : register} className="text-sm bg-zinc-800 py-3 text-white rounded-md w-full mt-10 hover:bg-zinc-900 transition uppercase">
