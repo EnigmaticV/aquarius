@@ -104,9 +104,6 @@ const Auth = () => {
                 onChange={(e: any) => setPassword(e.target.value)} 
               />
             </div>
-          
-                  </div>
-
             <button onClick={variant === 'login' ? login : register} className="text-sm bg-zinc-800 py-3 text-white rounded-md w-full mt-10 hover:bg-zinc-900 transition uppercase">
               {variant === 'login' ? 'Login' : 'Sign up'}
             </button>
