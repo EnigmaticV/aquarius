@@ -69,7 +69,7 @@ const Auth = () => {
 
   return (
  <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
-      <div className="bg-gradient-to-br from-slate-50 to-zinc-300 w-full h-full lg:bg-opacity-50">
+      <div className="bg-gradient-to-br from-slate-50 to-zinc-300 w-full h-full lg:bg-opacity-50 px-6 lg:px-0 md:px-10">
       <div className="h-screen flex items-center justify-center">
       <nav className="px-12 py-5 hidden sm:block hidden md:hidden lg:block"> 
       <img src="/images/logoBlack.png" alt="logo" className="h-12" />
