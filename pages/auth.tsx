@@ -94,7 +94,7 @@ const Auth = () => {
                 type="email"
                 label="Email address or phone number"
                 value={email}
-                onChange={(e: any) => setEmail(e.target.value)} 
+                onChange={(e: any) => setEmail(e.target.value)} style={{ marginBottom: '15px' }}
               />
               <Input
                 type="password" 
@@ -102,7 +102,7 @@ const Auth = () => {
                 label="Password" 
                 value={password}
                 onChange={(e: any) => setPassword(e.target.value)} 
-              className="space-y-4"/>
+              />
             </div>
 
             <button onClick={variant === 'login' ? login : register} className="text-sm bg-zinc-800 py-3 text-white rounded-md w-full mt-10 hover:bg-zinc-900 transition uppercase">
