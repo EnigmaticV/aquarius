@@ -102,7 +102,7 @@ const Auth = () => {
                 label="Password" 
                 value={password}
                 onChange={(e: any) => setPassword(e.target.value)} 
-              class="space-y-4"/>
+              className="space-y-4"/>
             </div>
 
             <button onClick={variant === 'login' ? login : register} className="text-sm bg-zinc-800 py-3 text-white rounded-md w-full mt-10 hover:bg-zinc-900 transition uppercase">
