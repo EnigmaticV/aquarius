@@ -79,7 +79,7 @@ const Auth = () => {
             
               {variant === 'login' ? 'Sign in' : 'Register'}
             </h2>
-            <div className="flex flex-col gap-4 text-sm ">
+            <div className="flex flex-col gap-4 text-sm mb-5 sm:mb-0">
               {variant === 'register' && (
                 <Input
                   id="name"
