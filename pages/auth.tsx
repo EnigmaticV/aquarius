@@ -75,7 +75,7 @@ const Auth = () => {
       <img src="/images/logoBlack.png" alt="logo" className="h-12" />
                 </nav>
                 <div className="bg-gradient-to-br from-gray-300 to-zinc-300 bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
-            <h2 className="text-sm text-black mb-8 opacity-70 uppercase ">
+            <h2 className="text-sm text-black mb-8 opacity-70 uppercase hidden sm:block hidden md:hidden lg:block"><span><img src="images/logoBlack.png" alt="logo" class="h-12"></span>
             
               {variant === 'login' ? 'Sign in' : 'Register'}
             </h2>
