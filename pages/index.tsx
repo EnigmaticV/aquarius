@@ -39,8 +39,7 @@ const Home = () => {
       <Billboard />
       <div className="pb-40" id="library">
         <MovieList title="LIBRARY" data={movies} />
-      </div>
-      <div className="pb-40" id="watchlist">
+      </div><div className="pb-40" id="watchlist">
         <MovieList title="WATCHLIST" data={favorites} />
       </div>
     </>
