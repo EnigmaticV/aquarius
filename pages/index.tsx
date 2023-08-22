@@ -37,7 +37,7 @@ const Home = () => {
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
-      <div className="pb-40 font-light" id="library">
+      <div className="pb-40 text-white text-md md:text-xl lg:text-2xl font-light mb-4" id="library">
         <MovieList title="LIBRARY" data={movies} />
       </div><div className="pb-40" id="watchlist">
         <MovieList title="WATCHLIST" data={favorites} />
