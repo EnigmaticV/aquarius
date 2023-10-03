@@ -118,7 +118,7 @@ const Auth = () => {
             <p className="text-center text-sm text-neutral-500 mt-12">
               {variant === 'login' ? 'First time using Aquarius?' : 'Already have an account?'}
               <span onClick={toggleVariant} className="text-gray-50 ml-1 hover:underline cursor-pointer font-bold">
-                {variant === 'login' ? 'Create an Account' : 'Login'}
+                {variant === 'login' ? 'Sign Up' : 'Login'}
               </span>
             </p>
           </div>
