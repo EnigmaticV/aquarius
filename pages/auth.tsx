@@ -115,6 +115,9 @@ const Auth = () => {
                 <FaGithub size={32} />
               </div>
             </div>
+            <nav className="px-12 py-5 hidden sm:block hidden md:hidden lg:block"> 
+            <img src="/images/logoBlack.png" alt="logo" className="h-12" />
+            </nav>
             <p className="text-center text-sm text-neutral-500 mt-12">
               {variant === 'login' ? 'First time using Aquarius?' : 'Already have an account?'}
               <span onClick={toggleVariant} className="text-gray-50 ml-1 hover:underline cursor-pointer font-bold">
