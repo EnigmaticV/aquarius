@@ -115,7 +115,7 @@ const Auth = () => {
                 <FaGithub size={32} />
               </div>
             </div>
-            <nav className="px-12 py-5 hidden sm:block hidden md:hidden lg:block"> 
+            <nav className="px-12 py-5 block sm:hidden">
             <img src="/images/logoBlack.png" alt="logo" className="h-12" />
             </nav>
             <p className="text-center text-sm text-neutral-500 mt-12">
