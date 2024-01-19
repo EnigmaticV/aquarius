@@ -117,7 +117,7 @@ const Auth = () => {
             </div>     
             <nav className="block sm:hidden">
             <img
-          src="/images/logoBlack-miniTwo.png"
+          src="/images/logoBlack-miniThree.png"
           alt="logo"
           className="mx-auto mt-4 transform scale-20"
           />
