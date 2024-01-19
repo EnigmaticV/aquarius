@@ -68,6 +68,9 @@ const Auth = () => {
   }, [email, name, password, login]);
 
   return (
+    <head>
+      <title>Aquarius</title>
+      </head>
  <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
       <div className="bg-gradient-to-br from-slate-50 to-zinc-300 w-full h-full lg:bg-opacity-50 px-6 lg:px-0 md:px-10">
       <div className="h-screen flex items-center justify-center">
