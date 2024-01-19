@@ -30,6 +30,9 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ visible }) => {
         <div className="px-3 text-center text-white hover:underline">
           Browse by Languages
         </div>
+        <div className="px-3 text-center text-white hover:underline">
+          <a href="#watchlist">Watchlist</a>
+        </div>
       </div>
     </div>
   )
