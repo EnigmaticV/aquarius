@@ -119,7 +119,7 @@ const Auth = () => {
             <img
           src="/images/logoBlack.png"
           alt="logo"
-          className="h-1/5 sm:h-1/6 md:h-1/7 lg:h-1/8 xl:h-1/9"
+          className="transform scale-20"
           />
             </nav>
             <p className="text-center text-sm text-neutral-500 mt-12">
