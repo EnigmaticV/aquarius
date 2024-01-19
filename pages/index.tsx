@@ -34,6 +34,7 @@ const Home = () => {
 
   return (
     <>
+      <head><title>Aquarius</title></head>
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
