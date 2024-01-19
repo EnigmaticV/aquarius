@@ -115,9 +115,16 @@ const Auth = () => {
                 <FaGithub size={32} />
               </div>
             </div>
-            <nav className="px-12 py-5 block sm:hidden">
-            <img src="/images/logoBlack.png" alt="logo" className="h-12" />
-            </nav>
+            <div className="flex justify-center items-center h-screen">
+            {/* This navigation with the image will be visible on mobile screens only */}
+            <nav className="block sm:hidden">
+            <img
+          src="/images/logoBlack.png"
+          alt="logo"
+          className="h-1/5 sm:h-1/6 md:h-1/7 lg:h-1/8 xl:h-1/9"
+          />
+          </nav>
+          </div>
             <p className="text-center text-sm text-neutral-500 mt-12">
               {variant === 'login' ? 'First time using Aquarius?' : 'Already have an account?'}
               <span onClick={toggleVariant} className="text-gray-50 ml-1 hover:underline cursor-pointer font-bold">
