@@ -40,7 +40,8 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed z-40">
       <div className={`text-sm text-white mb-8 opacity-70 uppercase px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-black w-full h-full lg:opacity-50' : ''}`}>
-        <img src="/images/logo.png" className="h-4 lg:h-7" alt="Logo" />
+        <Link href="/">
+        <a><img src="/images/logo.png" className="h-4 lg:h-7" alt="Logo" /></a></Link>
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem label="Home" active />
           <a href="#library">Library</a>
